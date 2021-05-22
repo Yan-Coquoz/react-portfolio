@@ -1,0 +1,16 @@
+@use "src/styles/vars" as v;
+.projet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    margin: 2rem;
+    padding: 1rem;
+    font-size: large;
+  }
+  &__video {
+    display: block;
+    border-radius: 20px;
+  }
+}

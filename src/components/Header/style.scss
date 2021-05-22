@@ -1,0 +1,25 @@
+@use "src/styles/vars" as v;
+
+.header {
+  width: 80%;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid v.$bordure;
+  &__logo {
+    width: 160px;
+    height: 160px;
+  }
+  &__titles {
+    // width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  &__title {
+    font-family: v.$ffDancing;
+    font-weight: 700;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+  }
+}

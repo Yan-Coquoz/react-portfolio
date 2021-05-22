@@ -1,0 +1,20 @@
+@use "src/styles/vars" as v;
+.caroussel {
+  position: relative;
+  width: 100%;
+  // min-height: ;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+
+  &__self {
+    width: 100%;
+  }
+}
+.react-3d-caroussel {
+  padding: 2rem;
+}
+.imgs {
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+}

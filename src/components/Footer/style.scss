@@ -1,0 +1,54 @@
+@use "src/styles/vars" as v;
+
+.footer {
+  border-top: 2px solid v.$bordure;
+  width: 80%;
+  margin: 0 auto;
+  &__title {
+    text-align: center;
+    font-size: large;
+    padding: 1rem;
+  }
+  &__nav {
+    text-align: center;
+  }
+  &__ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &__li {
+    padding: 1rem;
+    background: darken(v.$bgColor, 15%);
+    border-radius: 50%;
+    margin: 0 1rem 1rem 1rem;
+    &:hover {
+      background: darken(v.$bgColor, 10%);
+      box-shadow: 3px 3px 3px 1px lighten(v.$bgColor, 15%);
+    }
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+}
+.fa-linkedin {
+  color: #3e68c0;
+  font-size: 2rem;
+}
+.fa-twitter {
+  color: #23abff;
+  font-size: 2rem;
+}
+.fa-github {
+  color: #000;
+  font-size: 2rem;
+}
+.fa-whatsapp {
+  color: #27ae60;
+  font-size: 2rem;
+}
+.fa-paper-plane {
+  color: #f0f;
+  font-size: 2rem;
+}
