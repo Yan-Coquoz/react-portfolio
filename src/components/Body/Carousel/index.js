@@ -9,20 +9,20 @@ import leopard from "src/assets/img/leopard.jpg";
 import deer from "src/assets/img/deer.jpg";
 
 import "./style.scss";
-
+// parametre pour responsive
 const breakpoint = [
   {
     breakpoint: 500,
     settings: {
-      slidesToShow: 2,
-      slidesToScroll: 2,
+      slidesToShow: 1,
+      slidesToScroll: 1,
     },
   },
   {
     breakpoint: 768,
     settings: {
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 2,
+      slidesToScroll: 2,
     },
   },
 ];
@@ -39,23 +39,27 @@ const Carousel = () => {
         slidesToShow={1}
         scrollOnDevice={true}
       >
-        <div>
-          <img className="imgs" src={squirel} alt="un écureuil roux" />
+        <div className="caroussel__div">
+          <img
+            className="caroussel__imgs"
+            src={squirel}
+            alt="un écureuil roux"
+          />
         </div>
-        <div>
-          <img className="imgs" src={leopard} alt="une panthère" />
+        <div className="caroussel__div">
+          <img className="caroussel__imgs" src={leopard} alt="une panthère" />
         </div>
-        <div>
-          <img className="imgs" src={fox} alt="un renard" />
+        <div className="caroussel__div">
+          <img className="caroussel__imgs" src={fox} alt="un renard" />
         </div>
-        <div>
-          <img className="imgs" src={eagle} alt="un aigle pecheur" />
+        <div className="caroussel__div">
+          <img className="caroussel__imgs" src={eagle} alt="un aigle pecheur" />
         </div>
-        <div>
-          <img className="imgs" src={deer} alt="un cerf " />
+        <div className="caroussel__div">
+          <img className="caroussel__imgs" src={deer} alt="un cerf " />
         </div>
-        <div>
-          <img className="imgs" src={owl} alt="un grand duc" />
+        <div className="caroussel__div">
+          <img className="caroussel__imgs" src={owl} alt="un grand duc" />
         </div>
       </InfiniteCarousel>
     </div>

@@ -1,0 +1,19 @@
+@use "src/styles/vars" as v;
+.aside {
+  background: darken(v.$bgColor, 15%);
+  padding: 2rem;
+  border-radius: 20px;
+  &:hover {
+    background: darken(v.$bgColor, 20%);
+    box-shadow: 3px 3px 3px 1px lighten(v.$bgColor, 35%);
+  }
+  &__ecole-O {
+    font-weight: 600;
+    font-style: oblique;
+  }
+  &__logo {
+    width: 20px;
+    position: relative;
+    bottom: -3px;
+  }
+}

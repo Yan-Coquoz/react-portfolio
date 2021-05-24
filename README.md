@@ -1,7 +1,7 @@
 # Création de mon portfolio
 
 - Implémentation d'un caroussel :
- https://reactjsexample.com/3d-carousel-component-in-react/
+ https://reactjsexample.com/react-simple-infinite-carousel-with-lazy-loading-and-responsive-support/
 
 - Photos libre de droits :
  https://pixabay.com/fr/

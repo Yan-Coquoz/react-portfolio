@@ -32,7 +32,7 @@ const Menu = () => {
         Projets
       </Link>
       <Link
-        to="#Footer"
+        to="#footer"
         title="Me contacter"
         className="nav-container__lien"
         rel="noopener noreferrer"

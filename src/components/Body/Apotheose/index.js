@@ -11,10 +11,10 @@ const Apotheose = () => {
       </h3>
       <iframe
         className="projet__video"
-        width="560"
-        height="315"
+        width="853"
+        height="480"
         src="https://www.youtube.com/embed/XliSnSJouJs?start=3000"
-        title="YouTube video player"
+        title="Projet de fin de formation O'clock promo Pan"
         frameBorder="0"
         referrerPolicy="no-referrer"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -43,7 +43,7 @@ const Footer = () => {
           </li>
           <li className="footer__li">
             <a href="mailto:yan.coquoz@gmail.com">
-              <span className="far fa-paper-plane"></span>
+              <span className="far fa-envelope"></span>
             </a>
           </li>
         </ul>
