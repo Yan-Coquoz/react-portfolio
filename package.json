@@ -46,11 +46,11 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
-    "3d-react-carousal": "^3.1.0",
     "core-js": "3",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-leaf-carousel": "^2.0.3",
     "react-router-dom": "^5.2.0"
   }
 }

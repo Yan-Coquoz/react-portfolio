@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 import "./style.scss";
 
-const Menu = (props) => {
+const Menu = () => {
   //ecrire le code ici
   return (
     <nav className="nav-container">
       <Link
         to="/"
         title="retour à l'accueil"
-        className="nav-container__lien"
         rel="noopener noreferrer"
+        className="nav-container__lien"
       >
         Accueil
       </Link>
@@ -32,7 +32,7 @@ const Menu = (props) => {
         Projets
       </Link>
       <Link
-        to="#"
+        to="#Footer"
         title="Me contacter"
         className="nav-container__lien"
         rel="noopener noreferrer"

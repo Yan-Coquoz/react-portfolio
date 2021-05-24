@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Carousel from "src/components/Body/Carousel";
 import Aside from "src/components/Body/Aside";
 import Apotheose from "src/components/Body/Apotheose";

@@ -2,13 +2,6 @@
 # yarn lockfile v1
 
 
-"3d-react-carousal@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/3d-react-carousal/-/3d-react-carousal-3.1.0.tgz#533433ffe101ed3020d0d28ef2e08c0d914e328a"
-  integrity sha512-1eevbOougKHviNNQGs9aVqn4nIsFJSiKTx8k9XWOtWBhaJ5/BxMI4W0+Gt6ek90XBpe1F5VMczf5H/PjBZmxeA==
-  dependencies:
-    react-fast-compare "^3.0.2"
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1875,6 +1868,11 @@ camelcase@^6.2.0:
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-6.2.0.tgz#924af881c9d525ac9d87f40d964e5cea982a1809"
   integrity sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==
 
+can-use-dom@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/can-use-dom/-/can-use-dom-0.1.0.tgz#22cc4a34a0abc43950f42c6411024a3f6366b45a"
+  integrity sha1-IsxKNKCrxDlQ9CxkEQJKP2NmtFo=
+
 caniuse-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-3.0.0.tgz#5e4d90e2274961d46291997df599e3ed008ee4c0"
@@ -2794,6 +2792,11 @@ enhanced-resolve@^5.7.0:
   dependencies:
     graceful-fs "^4.2.4"
     tapable "^2.2.0"
+
+enquire.js@^2.1.1:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/enquire.js/-/enquire.js-2.1.6.tgz#3e8780c9b8b835084c3f60e166dbc3c2a3c89814"
+  integrity sha1-PoeAybi4NQhMP2DhZtvDwqPImBQ=
 
 enquirer@^2.3.5, enquirer@^2.3.6:
   version "2.3.6"
@@ -4356,6 +4359,13 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
+
+json2mq@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/json2mq/-/json2mq-0.2.0.tgz#b637bd3ba9eabe122c83e9720483aeb10d2c904a"
+  integrity sha1-tje9O6nqvhIsg+lyBIOusQ0skEo=
+  dependencies:
+    string-convert "^0.2.0"
 
 json3@^3.3.3:
   version "3.3.3"
@@ -6287,7 +6297,7 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@16.14.0:
+react-dom@16.14.0, react-dom@^16.12.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -6306,15 +6316,21 @@ react-dom@^17.0.1:
     object-assign "^4.1.1"
     scheduler "^0.20.1"
 
-react-fast-compare@^3.0.2:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
-  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
-
 react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-leaf-carousel@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/react-leaf-carousel/-/react-leaf-carousel-2.0.3.tgz#ff7b24d979876040e738df3f5332a8acda00db7c"
+  integrity sha512-wv89wFwtgF07WVySHR+Wd476hczTcLin/LQOoAruOA/U+mz/BxnSgDCvRWrcAh9Nbpdy0iY960mAO/bBb7C0Zw==
+  dependencies:
+    prop-types "^15.7.2"
+    react "^16.12.0"
+    react-dom "^16.12.0"
+    react-responsive-mixin "^0.4.0"
+    uniqid "^5.2.0"
 
 react-lifecycles-compat@^3.0.2:
   version "3.0.4"
@@ -6331,6 +6347,15 @@ react-outside-click-handler@^1.2.4:
     document.contains "^1.0.1"
     object.values "^1.1.0"
     prop-types "^15.7.2"
+
+react-responsive-mixin@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-responsive-mixin/-/react-responsive-mixin-0.4.0.tgz#9504218a17d49346d9a09a1f5945f629afdb624b"
+  integrity sha1-lQQhihfUk0bZoJofWUX2Ka/bYks=
+  dependencies:
+    can-use-dom "^0.1.0"
+    enquire.js "^2.1.1"
+    json2mq "^0.2.0"
 
 react-router-dom@^5.2.0:
   version "5.2.0"
@@ -6361,7 +6386,7 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react@16.14.0:
+react@16.14.0, react@^16.12.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
@@ -7194,6 +7219,11 @@ strict-uri-encode@^2.0.0:
   resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
   integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
 
+string-convert@^0.2.0:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/string-convert/-/string-convert-0.2.1.tgz#6982cc3049fbb4cd85f8b24568b9d9bf39eeff97"
+  integrity sha1-aYLMMEn7tM2F+LJFaLnZvznu/5c=
+
 string-width@^3.0.0, string-width@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-3.1.0.tgz#22767be21b62af1081574306f69ac51b62203961"
@@ -7582,6 +7612,11 @@ uniq@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/uniq/-/uniq-1.0.1.tgz#b31c5ae8254844a3a8281541ce2b04b865a734ff"
   integrity sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
+
+uniqid@^5.2.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/uniqid/-/uniqid-5.3.0.tgz#4545f8e9c9a5830ef804e512cca6a9331e9761bf"
+  integrity sha512-Jq8EzvAT8/CcLu8tzoSiylnzPkNhJJKpnMT964Dj1jI4pG4sKYP9aFVByNTp8KzMvYlW1Um63PCDqtOoujNzrA==
 
 uniqs@^2.0.0:
   version "2.0.0"
