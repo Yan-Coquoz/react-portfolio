@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch } from "react-router-dom";
 import Header from "src/components/Header";
 import Body from "src/components/Body";
 import Footer from "src/components/Footer";
@@ -11,7 +12,9 @@ import "./style.scss";
 const App = () => (
   <div className="container">
     <Header />
-    <Body />
+    <Switch>
+      <Body />
+    </Switch>
     <Footer />
   </div>
 );
